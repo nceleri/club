@@ -9,9 +9,8 @@ function activar(id) {
         dataType: "html",
         data: { id: id }
       }).done(function(resultado) {
-        bootbox.alert(
-          "Se paso a activo el socio: dni " + id + " correctamente"
-        );
+        console.log(resultado);
+        alert(resultado);
       });
     }
   });

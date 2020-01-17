@@ -3,11 +3,15 @@
 require_once('include/conexion.php');
 if (isset($_GET['n'])) {
 
-$sql = 'UPDATE socio SET estado_s="Baja" WHERE nro_socio='.$_GET['n'];
+$sql = 'UPDATE info_socio SET estado="Baja" WHERE id_socio='.$_GET['n'];
 
 $result = $conexion->query($sql);
 
-echo $result;
+if ($result) {
+    echo "Socio desactivado";
+}else{
+    echo "Ocurrió un problema, no se pudo desactivar el socio.".$sql;
+}
 }
 
 
