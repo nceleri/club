@@ -112,14 +112,25 @@ require_once('include/seguridad.php');
 								<label class="control-label">Obra Social</label>
 								<input class="form-control" type="text" name="obra_social_s" id="obra_social_s" maxlength="50">
 							</div>
-							<div class="form-group col-md-3 col-12 label-floating ">
-								<label class="control-label">Division</label>
-								<input class="form-control" type="text" name="division_s" id="division_s" maxlength="7">
+							<div class="form-group col-md-6 col-12">
+								<label class="control-label">Actividad</label>
+								<select name="actividad" id="actividad" class="form-control">
+									<option value="null" selected></option>
+									<option value="jugador">Jugador</option>
+									<option value="dirigente">Dirigente</option>
+									<option value="arbitro">Arbitro</option>
+									<option value="vitalicio">Vitalicio</option>
+									<option value="social">Social</option>
+								</select>
 							</div>
 
 							<div class="form-group col-md-3 col-12 ">
 								<label class="control-label">Fecha Alta</label>
-								<input class="form-control" type="date" name="f_alta_s" id="f_alta_s" required>
+								<input class="form-control" type="date" name="f_apto_s" id="f_alta_s" required>
+							</div>
+							<div class="form-group col-md-3 col-12 ">
+								<label class="control-label">Fecha Apto Medico</label>
+								<input class="form-control" type="date" name="f_apto_s" id="f_apto_s" required>
 							</div>
 							<div class="form-group col-md-3 col-12 ">
 								<label class="control-label">Fichado UAR</label>
@@ -168,8 +179,6 @@ require_once('include/seguridad.php');
 								<option value="null" selected></option>
 								<option value="Mayor">MAYOR</option>
 								<option value="Menor">MENOR</option>
-								<option value="Vitalicio">VITALICIO</option>
-								<option value="Empleado">EMPLEADO DEL CLUB</option>
 							</select>
 						</div>
 				</div>
