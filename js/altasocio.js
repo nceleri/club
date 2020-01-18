@@ -36,7 +36,7 @@ $(btnGuardar).click(function(e) {
 
   if (validoGeneral === true) {
     var url =
-      "http://localhost/PlantillaLasalle/ajax/socio.php?op=guardaryeditar";
+      "http://localhost/club/ajax/socio.php?op=guardaryeditar";
     $.ajax({
       type: "POST",
       url: url,
@@ -152,10 +152,7 @@ function bloque1() {
     $("#obra_social_s").val("");
     $("#obra_social_s").focus();
     //datos generales
-  } else if ($("#division_s").val() === "") {
-    $("#division_s").val("");
-    $("#division_s").focus();
-  } else if ($("#f_alta_s").val() === "") {
+  }  else if ($("#f_alta_s").val() === "") {
     $("#f_alta_s").focus();
   } else if ($("#fichadoUAR_s").val() === "") {
     $("#fichadoUAR_s").focus();

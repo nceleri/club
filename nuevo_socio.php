@@ -46,19 +46,19 @@ require_once('include/seguridad.php');
 						<div class="row">
 							<div class="form-group col-md-3 label-floating ">
 								<label class="control-label">DNI</label>
-								<input class="form-control" type="number" name="nro_s" id="nro_s" maxlength="9" minlength="5" required pattern="[0-9]+">
+								<input value="40967827" class="form-control" type="number" name="nro_s" id="nro_s" maxlength="9" minlength="5" required pattern="[0-9]+">
 							</div>
 							<div class="form-group col-md-3 label-floating">
 								<label class="control-label">Cuil/t</label>
-								<input class="form-control" type="number" name="cuil_s" id="cuil_s" maxlength="15" required>
+								<input value="20409678271" class="form-control" type="number" name="cuil_s" id="cuil_s" maxlength="15" required>
 							</div>
 							<div class="form-group col-md-3 col-12 label-floating ">
 								<label class="control-label">Apellido</label>
-								<input class="form-control" type="text" name="apellido_s" id="apellido_s" maxlength="30" required>
+								<input value="Gonzalez" class="form-control" type="text" name="apellido_s" id="apellido_s" maxlength="30" required>
 							</div>
 							<div class="form-group col-md-3 col-12 label-floating">
 								<label class="control-label">Nombre</label>
-								<input class="form-control" type="text" name="nombre_s" id="nombre_s" maxlength="30" required>
+								<input value="Lautaro" class="form-control" type="text" name="nombre_s" id="nombre_s" maxlength="30" required>
 							</div>
 						</div>
 						<div class="row">
@@ -69,8 +69,8 @@ require_once('include/seguridad.php');
 							<div class="form-group col-md-6 col-12">
 								<label class="control-label">Sexo</label>
 								<select name="sexo_s" id="sexo_s" class="form-control">
-									<option value="null" selected></option>
-									<option value="M">Masculino</option>
+									<option value="null" ></option>
+									<option value="M" selected>Masculino</option>
 									<option value="F">Femenino</option>
 								</select>
 							</div>
@@ -80,29 +80,29 @@ require_once('include/seguridad.php');
 						<div class="row">
 							<div class="form-group col-md-4 col-12 label-floating ">
 								<label class="control-label">Domicilio</label>
-								<input class="form-control" type="text" name="domicilio_s" id="domicilio_s" maxlength="75" required>
+								<input value="Avaya 4193" class="form-control" type="text" name="domicilio_s" id="domicilio_s" maxlength="75" required>
 							</div>
 							<div class="form-group col-md-4 col-12 label-floating">
 								<label class="control-label">Ciudad</label>
-								<input class="form-control" type="text" name="ciudad_s" id="ciudad_s" maxlength="50" required>
+								<input value="Santa fe" class="form-control" type="text" name="ciudad_s" id="ciudad_s" maxlength="50" required>
 							</div>
 							<div class="form-group col-md-4 col-12 label-floating ">
 								<label class="control-label">Codigo Postal</label>
-								<input class="form-control" type="number" name="cpostal_s" id="cpostal_s" maxlength="4" required>
+								<input value="3000" class="form-control" type="number" name="cpostal_s" id="cpostal_s" maxlength="4" required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col-md-4 col-12 label-floating">
 								<label class="control-label">Numero de Celular</label>
-								<input class="form-control" type="number" name="nro_celular_s" id="nro_celular_s" maxlength="15" required>
+								<input value="3424097294" class="form-control" type="number" name="nro_celular_s" id="nro_celular_s" maxlength="15" required>
 							</div>
 							<div class="form-group col-md-4 col-12 label-floating">
 								<label class="control-label">Numero de Telefono</label>
-								<input class="form-control" type="number" name="nro_tel_s" id="nro_tel_s" maxlength="10" required>
+								<input value="4838727" class="form-control" type="number" name="nro_tel_s" id="nro_tel_s" maxlength="10" required>
 							</div>
 							<div class="form-group col-md-4 col-12 label-floating ">
 								<label class="control-label">E-mail</label>
-								<input class="form-control" type="text" name="email_s" id="email_s" maxlength="40" required>
+								<input value="lautaro@gmail.com" class="form-control" type="text" name="email_s" id="email_s" maxlength="40" required>
 							</div>
 						</div>
 
@@ -110,7 +110,7 @@ require_once('include/seguridad.php');
 						<div class="row">
 							<div class="form-group col-md-3 col-12 label-floating">
 								<label class="control-label">Obra Social</label>
-								<input class="form-control" type="text" name="obra_social_s" id="obra_social_s" maxlength="50">
+								<input value="UTA" class="form-control" type="text" name="obra_social_s" id="obra_social_s" maxlength="50">
 							</div>
 							<div class="form-group col-md-6 col-12">
 								<label class="control-label">Actividad</label>
